@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+  <body>
+    <div id="main-box">
+      <div id="box-1">
+        <h2>To-Do List</h2>
+      </div>
+      <div id="box-2">
+        <time id="time"></time>
+        <date id="date"></date>
+        <day id="Day"></day>
+      </div>
+      <div id="box-3">
+        <input type="text" id="task-input-box" placeholder="Enter Your Task" />
+        <button id="add-task-btn">➕</button>
+      </div>
+      <div id="box-4">
+        <button class="switch-btns" id="pending">Pending</button>
+        <button class="switch-btns temp-class" id="all">All</button>
+        <button class="switch-btns" id="completed">Completed</button>
+      </div>
+      <div id="task-box"></div>
+      <div id="footer">
+        <button id="remove-btn">Remove All</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
